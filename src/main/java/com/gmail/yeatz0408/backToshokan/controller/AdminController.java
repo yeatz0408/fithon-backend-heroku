@@ -15,7 +15,7 @@ import com.gmail.yeatz0408.backToshokan.requestmodels.AddBookRequest;
 import com.gmail.yeatz0408.backToshokan.service.AdminService;
 import com.gmail.yeatz0408.backToshokan.utils.ExtractJWT;
 
-@CrossOrigin("http://localhost:3000")
+@CrossOrigin("http://yeatz0408.github.io/fithon-front")
 @RestController
 @RequestMapping("/api/admin")
 public class AdminController {
