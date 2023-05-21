@@ -15,7 +15,7 @@ import com.gmail.yeatz0408.backToshokan.requestmodels.AddBookRequest;
 import com.gmail.yeatz0408.backToshokan.service.AdminService;
 import com.gmail.yeatz0408.backToshokan.utils.ExtractJWT;
 
-@CrossOrigin("/**")
+@CrossOrigin("*")
 @RestController
 @RequestMapping("/api/admin")
 public class AdminController {

@@ -14,7 +14,7 @@ import com.gmail.yeatz0408.backToshokan.requestmodels.ReviewRequest;
 import com.gmail.yeatz0408.backToshokan.service.ReviewService;
 import com.gmail.yeatz0408.backToshokan.utils.ExtractJWT;
 
-@CrossOrigin("/**")
+@CrossOrigin("*")
 @RestController
 @RequestMapping("/api/reviews")
 public class ReviewController {
