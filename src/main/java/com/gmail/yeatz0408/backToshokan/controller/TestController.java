@@ -17,7 +17,7 @@ import com.gmail.yeatz0408.backToshokan.requestmodels.AddBookRequest;
 import com.gmail.yeatz0408.backToshokan.service.AdminService;
 import com.gmail.yeatz0408.backToshokan.service.BookService;
 
-@CrossOrigin("https://yeatz0408.github.io/fithon-front")
+@CrossOrigin("/**")
 @RestController
 public class TestController {
 
