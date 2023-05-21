@@ -12,7 +12,7 @@ import com.gmail.yeatz0408.backToshokan.entity.Review;
 @Configuration
 public class MyDataRestConfig implements RepositoryRestConfigurer {
 
-    private String theAllowedOrigins = "http://localhost:3000";
+    private String theAllowedOrigins = "/*";
 
     public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config, CorsRegistry cors) {
         
