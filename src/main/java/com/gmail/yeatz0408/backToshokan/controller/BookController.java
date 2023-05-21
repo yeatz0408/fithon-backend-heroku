@@ -19,7 +19,7 @@ import com.gmail.yeatz0408.backToshokan.responsemodels.ShelfCurrentLoansResponse
 import com.gmail.yeatz0408.backToshokan.service.BookService;
 import com.gmail.yeatz0408.backToshokan.utils.ExtractJWT;
 
-@CrossOrigin("http://yeatz0408.github.io/fithon-front")
+@CrossOrigin("https://yeatz0408.github.io/fithon-front")
 @RestController
 @RequestMapping("/api/books")
 public class BookController {
